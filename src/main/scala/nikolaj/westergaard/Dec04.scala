@@ -32,5 +32,5 @@ object Dec04_01 extends App {
 }
 
 object Dec04_02 extends App {
-  println(s"Passwords ${Dec04.getPasswords(156218 to 652527).length}")
+  println(s"Passwords ${Dec04.getPasswords(156218 to 652527,true).length}")
 }
